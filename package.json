@@ -10,6 +10,7 @@
   },
   "scripts": {
     "start": "http-server",
-    "test": "codeceptjs run --verbose"
+    "test": "codeceptjs run --verbose",
+    "ci-test": "codeceptjs run --override '{'helpers': {'Puppeteer': {'show': false}}}'"
   }
 }
