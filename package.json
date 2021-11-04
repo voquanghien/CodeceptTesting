@@ -11,6 +11,6 @@
   "scripts": {
     "start": "http-server",
     "test": "codeceptjs run --verbose",
-    "ci-test": "codeceptjs run --override '{'helpers': {'Puppeteer': {'show': false}}}'"
+    "ci-test": "codeceptjs run --override '{'helpers': {'Playwright': {'show': false}}}'"
   }
 }
